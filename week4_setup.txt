@@ -1,0 +1,10 @@
+
+sudo groupadd backend_devs
+sudo usermod -aG backend_devs $USER
+sudo mkdir /opt/project_code
+sudo chown root:backend_devs /opt/project_code
+sudo chmod 2770 /opt/project_code
+sudo mkdir /opt/public_dropbox
+sudo chmod 1777 /opt/public_dropbox
+
+
